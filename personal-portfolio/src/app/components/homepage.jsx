@@ -17,7 +17,7 @@ const Homepage = () => {
 
              <div className='flex h-3/4 w-3/4 items-center justify-center text-5xl text-black font-mono text-center z-10'>The only limit to our realization of tomorrow is our doubts of today.</div>
              <div className= 'flex  h-3/4 w-1/4 items-center justify-start  '>
-                <div className='h-3/4 w-3/4 border-2 rounded-full border-[#513671] bg-[#fdda5f]'></div>
+                <div className='h-3/4 w-3/4 border-4 rounded-full border-[#764fa4] bg-[#fdda5f] bg-cover' style={{backgroundImage:"url('/assets/profile.png')"}}></div>
              </div>
              
             </div>
