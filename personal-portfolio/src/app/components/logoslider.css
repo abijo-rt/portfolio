@@ -1,0 +1,28 @@
+.logoslider {
+    animation: 30s logoslider infinite linear;
+    
+
+}
+  
+  @keyframes logoslider {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .img {
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #a67cfe; /* Example shadow */
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  
