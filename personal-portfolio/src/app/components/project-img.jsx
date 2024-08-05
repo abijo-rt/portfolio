@@ -40,12 +40,14 @@ const ProjectImg = ({ project }) => {
 
   return (
     <div className='h-full w-full '>
-      <div className='h-[90%] w-full p-5'>
-        <div className='border-2 border-[#764fa4] h-full w-full bg-center bg-cover' style={{ backgroundImage: `url('./assets/${imageUrl}.png')` }}> </div>
+      <div className='h-[85%] w-full px-5 pt-5'>
+        <div className='border-4 border-[#764fa4] h-full w-full bg-center rounded-lg bg-contain' style={{ backgroundImage: `url('./assets/${imageUrl}.png')` }}> </div>
       </div>
-      <div className='h-[10%] w-full flex px-5 justify-between'>
-        <button onClick={() => changeimg(0)} className=' h-[80%] w-32 bg-[#fad964] flex rounded-full justify-center items-center text-xl font-semibold text-black font-mono border-2 border-[#764fa4]'> Previous</button>
-        <button onClick={() => changeimg(1)} className='h-[80%] w-32 bg-[#fdda5f] flex rounded-full justify-center items-center text-xl font-semibold text-black font-mono border-2 border-[#764fa4]'> Next</button>
+      <div className='h-[15%] w-full flex  justify-center space-x-4 items-center'>
+        <button onClick={() => changeimg(0)} className=' h-12 w-12 bg-[#764fa4] flex rounded-full justify-center items-center text-xl font-semibold text-black font-mono border-4 border-[#fbfbfb] hover:border-[#3b82f6]'> <img className='size-6 ' src="./assets/left.svg"></img></button>
+        <button onClick={() => changeimg(0)} className=' h-12 w-12 bg-[#764fa4] flex rounded-full justify-center items-center text-xl font-semibold text-black font-mono border-4 border-[#fbfbfb]   hover:border-[#3b82f6]'> <img className='size-6' src="./assets/github.svg"></img></button>
+        <button onClick={() => changeimg(0)} className=' h-12 w-12 bg-[#764fa4] flex rounded-full justify-center items-center text-xl font-semibold text-black font-mono border-4 border-[#fbfbfb] hover:border-[#3b82f6]'><img className='size-6' src="./assets/link.svg"></img></button>
+        <button onClick={() => changeimg(1)} className=' h-12 w-12 bg-[#764fa4] flex rounded-full justify-center items-center text-xl font-semibold text-black font-mono border-4 border-[#fbfbfb] hover:border-[#3b82f6]'> <img className='size-6' src="./assets/right.svg"></img></button>
       </div>
     </div>
   )

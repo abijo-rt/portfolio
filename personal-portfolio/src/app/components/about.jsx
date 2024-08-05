@@ -4,7 +4,7 @@ const About = () => {
     <div className='bg-[#a67cfe] relative' id='about' >
          <div className=' flex h-screen w-screen items-center justify-center   px-32'>
          <div className='flex flex-col h-3/4 w-1/4 items-start justify-start '>
-         <div className='text-black font-mono text-6xl '>About</div><br/>
+         <div className='text-[#513671] font-mono text-6xl '>About</div><br/>
          <div className='font-mono text-4xl '>&quot;The only way to do great work is to love what you do..&quot;</div>
          </div>
 

@@ -16,7 +16,7 @@ const [project,setProject] =useState(1);
         <div className='bg-[#a67cfe]  '>
             <div className='flex flex-row h-screen w-screen   items-center justify-between p-24 z-20'>
                 <div className='h-full w-fit flex flex-col justify-center items-start   ' >
-                    <p className='text-5xl font-mono text-black font-semibold'>My Projects...</p>
+                    <p className='text-5xl font-mono text-[#513671] font-semibold'>My Projects...</p>
                     <div className='space-y-10 pt-10 w-full'>
                        <button onClick={()=>changeProject(1)} className='flex items-center h-24 w-full justify-center border-[#764fa4] rounded-full border-2 bg-[#d8b8fb] hover:shadow-[#d8b8fb] hover:shadow-2xl'> <p className='text-2xl font-mono text-black '>Campus Maintence</p>   </button>
                        <button onClick={()=>changeProject(2)} className='flex items-center  h-24  w-full justify-center border-[#764fa4] rounded-full border-2 bg-[#d8b8fb] hover:shadow-[#d8b8fb] hover:shadow-2xl'> <p className='text-2xl font-mono text-black'>Event Management</p> </button>
